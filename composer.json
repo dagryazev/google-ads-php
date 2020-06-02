@@ -4,7 +4,7 @@
   "url": "https://github.com/googleads/google-ads-php",
   "description": "Google Ads API client for PHP",
   "require": {
-    "php": ">=7.2",
+    "php": ">=7.0",
     "google/gax": "^1.3.0",
     "google/protobuf": "^3.11.4",
     "ulrichsg/getopt-php": "^3.2.2",
