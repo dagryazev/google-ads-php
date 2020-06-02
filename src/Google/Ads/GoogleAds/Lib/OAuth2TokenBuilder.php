@@ -154,7 +154,7 @@ final class OAuth2TokenBuilder implements GoogleAdsBuilder
      * @param string|null $impersonatedEmail
      * @return OAuth2TokenBuilder this builder
      */
-    public function withImpersonatedEmail(?string $impersonatedEmail): self
+    public function withImpersonatedEmail(string $impersonatedEmail): self
     {
         $this->impersonatedEmail = $impersonatedEmail;
         return $this;
