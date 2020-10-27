@@ -38,7 +38,7 @@ trait GoogleAdsExceptionTrait
     public function throwGoogleAdsException(
         ApiException $exception,
         $statusMetadataExtractor = null
-    ): void {
+    ) {
         $statusMetadataExtractor = $statusMetadataExtractor ?: new StatusMetadataExtractor();
         $metadata = $exception->getMetadata();
 
