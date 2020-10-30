@@ -121,7 +121,7 @@ final class GoogleAdsClientBuilder implements GoogleAdsBuilder
      * @param string|null $loginCustomerId the login customer ID
      * @return self this builder
      */
-    public function withLoginCustomerId(?string $loginCustomerId)
+    public function withLoginCustomerId(string $loginCustomerId)
     {
         $this->loginCustomerId = $loginCustomerId;
         return $this;
